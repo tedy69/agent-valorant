@@ -2,6 +2,7 @@ import Header from "./components/header";
 import Navbar from "./components/navbar";
 import Skill from "./components/skill";
 import Agent from "./components/agent";
+import Footer from "./components/footer";
 import axios from "axios";
 import { useState, useEffect } from "react";
 
@@ -37,6 +38,7 @@ function App() {
       <br />
       <br />
       <Agent agents={agents} onData={handleData} />
+      <Footer />
     </>
   );
 }

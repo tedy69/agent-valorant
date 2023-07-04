@@ -6,7 +6,6 @@ function Header() {
 
   const handleClick = () => {
     setActive(!active);
-    console.log("clicked", active);
   };
 
   return (

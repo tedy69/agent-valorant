@@ -38,7 +38,7 @@ function Header({ agent }) {
         reset: true,
       });
     }
-  }, []);
+  }, [sectionRef]);
   return (
     <header ref={sectionRef}>
       <video autoPlay muted loop id="myVideo">
@@ -53,6 +53,12 @@ function Header({ agent }) {
           alt={agent ? agent.displayName : ""}
           className="sova-img"
           width={1000}
+        />
+        <img
+          src={agent ? agent.background : ""}
+          alt={agent ? agent.displayName : ""}
+          className="sova-img-background"
+          width={500}
         />
       </div>
       <div className="header-text-container">
