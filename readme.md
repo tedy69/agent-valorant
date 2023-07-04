@@ -71,4 +71,8 @@ The Agent Valorant ReactJS project is licensed under the [MIT License](LICENSE).
 
 If you have any questions or suggestions regarding the Agent Valorant ReactJS project, feel free to reach out to us at [gmail@tedyfazrin.com](mailto:gmail@tedyfazrin.com).
 
+## Special Thanks
+
+Special thanks to the [@ega-erinovian](https://github.com/ega-erinovian) for base code.
+
 Happy coding!
